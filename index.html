@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Dubrek Ads | Gestão de Tráfego Pago</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Erik Moraes - Gestor de Tráfego Pago da Dubrek Ads. Escale suas vendas com anúncios inteligentes.">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #6C2BD9;
+      --dark: #0f0f1a;
+      --light: #ffffff;
+      --gray: #bdbdbd;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(180deg, #0f0f1a, #1a1a2e);
+      color: var(--light);
+    }
+
+    header {
+      padding: 100px 20px;
+      text-align: center;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    header span {
+      color: var(--primary);
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: var(--gray);
+      margin-bottom: 40px;
+    }
+
+    .btn {
+      background: var(--primary);
+      color: #fff;
+      padding: 15px 35px;
+      border-radius: 40px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(108, 43, 217, 0.6);
+    }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 80px 20px;
+    }
+
+    section h2 {
+      text-align: center;
+      font-size: 2.4rem;
+      margin-bottom: 50px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.05);
+      border-radius: 20px;
+      padding: 30px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      background: rgba(108, 43, 217, 0.15);
+    }
+
+    .card h3 {
+      margin-bottom: 15px;
+    }
+
+    .card p {
+      color: var(--gray);
+      font-size: 0.95rem;
+    }
+
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .about p {
+      color: var(--gray);
+      line-height: 1.7;
+    }
+
+    .cta {
+      text-align: center;
+      background: linear-gradient(135deg, #6C2BD9, #4c1bb3);
+      border-radius: 30px;
+      padding: 80px 20px;
+    }
+
+    .cta h2 {
+      margin-bottom: 20px;
+    }
+
+    .cta p {
+      margin-bottom: 30px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px;
+      font-size: 0.85rem;
+      color: var(--gray);
+    }
+
+    /* Botões flutuantes */
+    .floating {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      z-index: 1000;
+    }
+
+    .floating a {
+      background: var(--primary);
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-decoration: none;
+      font-size: 22px;
+      box-shadow: 0 0 15px rgba(108, 43, 217, 0.7);
+      transition: 0.3s;
+    }
+
+    .floating a:hover {
+      transform: scale(1.1);
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.3rem;
+      }
+
+      .about {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Escale seu negócio com <span>Tráfego Pago Inteligente</span></h1>
+  <p>Sou Erik Moraes, gestor de anúncios da <strong>Dubrek Ads</strong>. Crio estratégias focadas em crescimento real, previsível e lucrativo.</p>
+  <a href="#contato" class="btn">Quero anunciar agora</a>
+</header>
+
+<section>
+  <h2>O que eu faço por você</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Gestão de Anúncios</h3>
+      <p>Criação, otimização e escala de campanhas no Meta Ads e Google Ads.</p>
+    </div>
+    <div class="card">
+      <h3>Estratégia de Funil</h3>
+      <p>Estruturo funis de vendas que convertem leads em clientes.</p>
+    </div>
+    <div class="card">
+      <h3>Análise de Dados</h3>
+      <p>Decisões baseadas em métricas reais para maximizar ROI.</p>
+    </div>
+  </div>
+</section>
+
+<section class="about">
+  <div>
+    <h2>Sobre a Dubrek Ads</h2>
+    <p>
+      A Dubrek Ads nasceu com o objetivo de ajudar empresas e infoprodutores
+      a venderem mais através de anúncios estratégicos.
+      Não é sobre gastar mais, é sobre investir melhor.
+    </p>
+  </div>
+  <div>
+    <h2>Por que me contratar?</h2>
+    <p>
+      Cada campanha é pensada de forma personalizada, com foco em resultados
+      reais, previsibilidade e escala sustentável.
+    </p>
+  </div>
+</section>
+
+<section class="cta" id="contato">
+  <h2>Pronto para escalar suas vendas?</h2>
+  <p>Clique no botão abaixo e fale comigo agora.</p>
+  <a href="https://wa.me/5599999999999" target="_blank" class="btn">Falar no WhatsApp</a>
+</section>
+
+<footer>
+  © 2026 - Dubrek Ads | Erik Moraes
+</footer>
+
+<!-- Botões flutuantes -->
+<div class="floating">
+  <a href="https://wa.me/5599999999999" target="_blank">💬</a>
+  <a href="https://instagram.com" target="_blank">📷</a>
+  <a href="#contato">🚀</a>
+</div>
+
+</body>
+</html>
